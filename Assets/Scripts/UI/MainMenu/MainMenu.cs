@@ -9,7 +9,6 @@ public class MainMenu : MonoBehaviour
     void Awake()
     {
         gameController = FindObjectOfType<GameController>();
-        Debug.Log(gameController);
     }
 
     // Start is called before the first frame update

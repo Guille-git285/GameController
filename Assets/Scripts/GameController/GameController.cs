@@ -66,7 +66,7 @@ public class GameController : MonoBehaviour
 
     public void StartNewGame ()
     {
-        nextScene = "EntryArea";
+        nextScene = "Main";
         sceneType = SceneType.LEVEL;
         stateMachine.ChangeState("LoadingState");
     }
